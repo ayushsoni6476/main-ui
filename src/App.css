@@ -1,0 +1,137 @@
+:root {
+  --mainBlue: #2a2a72;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainDark: #000;
+  --mainYellow: #ffa400;
+}
+
+body {
+  font-family: "Oswald", sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+  text-align: center;
+}
+.text-title {
+  font-family: "Permanent Marker", cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+.text-blue {
+  color: var(--mainBlue);
+}
+.text-bright {
+  color: var(--lightBlue);
+}
+.navbar {
+  justify-content: flex-start !important;
+}
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainBlack);
+  border-radius: 0 !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+.btn-black:hover {
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
+}
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+
+#register,
+#login {
+  width: 500px;
+  border: 3px solid #d6d7da;
+  padding: 0px 15px 15px 15px;
+  border-radius: 10px;
+  font-family: arial;
+  line-height: 16px;
+  color: #050505;
+  font-size: 14px;
+  background: #f5f3f3;
+  margin: 100px auto;
+  margin-top: 0.67em;
+  
+}
+
+form label,
+form input {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+form input {
+  
+  padding: 10px;
+  border: solid 1px #bdc7d8;
+}
+form label {
+  margin-top: 1em;
+  font-family: "Comic Sans MS";
+  font-size: 20px;
+}
+
+.button {
+  background-color: hsl(249, 100%, 50%);
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 15px;
+  color: #ffffff;
+  align-content: centre;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: rgb(25, 162, 241);
+  color: hsl(240, 17%, 93%);
+}
+
+.errorMsg {
+  color: #cc0000;
+  margin-bottom: 12px;
+}
+
+.sucessMsg {
+  color: #6b8e23;
+  margin-bottom: 10px;
+}
+#sty {
+  
+  height: 80px;
+}
+#h1 {
+  margin-top: 0.67em;
+  font-family: "Comic Sans MS, cursive, sans-serif";
+}
+#label {
+  margin-top: 3em;
+  
+  
+  
+}
+#h4{
+  margin-top: 0.67em;
+  font-family: "Oswald", sans-serif !important;
+  font-weight: bold;
+}
+
+#bolds {
+  font-size: 20px;
+  font-weight: bold;
+}
